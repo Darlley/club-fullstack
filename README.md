@@ -1,6 +1,6 @@
 # CURSOS DO CLUBE FULLSTACK
 
-[Udemy](https://www.udemy.com/course/clube-fullstack/)
+[![imagem](https://img-b.udemycdn.com/course/240x135/3825724_1a3a_4.jpg)](https://www.udemy.com/course/clube-fullstack/)
 
 1. ✔️ PHP para quem não sabe PHP
 1. ⏳ PHP para quem entende PHP
