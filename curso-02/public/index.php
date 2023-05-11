@@ -12,11 +12,13 @@
 </head>
 <body>
     <div class="max-w-4xl m-auto py-10">
-        <?php try {
-            require load();
-        }catch(Exception $errors) {
-            echo $errors->getMessage();
-        } ?>
+        <?php
+            try {
+                require load();
+            } catch(\Exception $e) {
+                $e->getMessage();
+            }
+        ?> 
     </div>
 </body>
 </html>
