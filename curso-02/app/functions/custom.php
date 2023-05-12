@@ -14,3 +14,13 @@ function request(){
 
     return $_GET;
 }
+
+function redirect($page)
+{
+    header('location:/?page=' . $page);
+}
+
+function redirectToHome()
+{
+    header('location:/');
+}
