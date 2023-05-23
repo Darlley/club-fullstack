@@ -28,6 +28,5 @@ function isEmpty(){
             $empty = true;
         }
     }
-    
     return $empty;
 }

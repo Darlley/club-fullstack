@@ -1,6 +1,5 @@
+<?=get('message'); ?>
 <?php
-    get('message');
-
     $request = request();
     $user = find('users', 'id', $request['id']);
 ?>
@@ -8,7 +7,7 @@
     <input type="hidden" name="id" value="<?=$user->id;?>" />
     <div class="space-y-12">
         <div class="border-b border-gray-900/10 pb-12">
-            <h2 class="text-base font-semibold leading-7 text-gray-900">Editando informações de <strong>Darlley</strong></h2>
+            <h2 class="text-base font-semibold leading-7 text-gray-900">Editando informações de <strong><?=$user->firstname; ?></strong></h2>
             <p class="mt-1 text-sm leading-6 text-gray-600">Edite o formulário</p>
 
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
