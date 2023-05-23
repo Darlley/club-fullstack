@@ -4,7 +4,7 @@ require "../../../bootstrap.php";
 
 if(isEmpty()){
     flash('message','Preencha todos os campos!');
-    redirect('create-user');
+    return redirect('create-user');
 }
 
 

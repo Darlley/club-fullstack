@@ -1,3 +1,4 @@
+<?=get('message'); ?>
 <div>
     <div class="px-4 sm:px-6 lg:px-8">
         <div class="flex w-full justify-between mb-8">

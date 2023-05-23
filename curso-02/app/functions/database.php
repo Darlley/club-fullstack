@@ -57,9 +57,13 @@ function find($table, $field, $value)
     $sql = "select * from {$table} where {$field} = :{$field}";
     $find = $pdo->prepare($sql);
     $find->bindValue($field, $value);
-    $find->execute();
-    
-    return $find->fetch();
+    return $find->execute();
 }
 
-function delete(){}
+function delete($table, $field, $value){
+    $pdo = connect();
+    $sql = "delete from {$table} where {$field} = :{$field}";
+    $delete = $pdo->prepare($sql);
+    $delete->bindValue($field,$value);
+    return $delete->execute();
+}
