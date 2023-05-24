@@ -3,8 +3,8 @@
 [![imagem](https://img-b.udemycdn.com/course/240x135/3825724_1a3a_4.jpg)](https://www.udemy.com/course/clube-fullstack/)
 
 1. ✔️ PHP para quem não sabe PHP
-1. ⏳ PHP para quem entende PHP
-1. ❌ PHP profissional
+1. ✔️ PHP para quem entende PHP
+1. ⏳ PHP profissional
 1. ❌ PHP Orientado a Objetos
 1. ❌ PHP Orientado a Objetos - Atualizado 2021
 1. ❌ Composer

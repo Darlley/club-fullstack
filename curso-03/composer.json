@@ -6,7 +6,8 @@
             "Darll\\Curso03\\app\\": "app"
         },
         "files": [
-            "app/helpers/constants.php"
+            "app/helpers/constants.php",
+            "app/router/router.php"
         ]
     },
     "authors": [
